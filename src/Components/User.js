@@ -15,7 +15,7 @@ export class UserService {
 
   createUser(username, fname, lname, email, password) {
     const user = new User(username, fname, lname, email, password);
-    this.users.push(user);
+    return user;
   }
 
   authenticate(username, password) {

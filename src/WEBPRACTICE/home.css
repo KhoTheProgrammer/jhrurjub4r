@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #759499;
+    font-family: 'Bw Modelica SS01', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    margin: 10px;
+    padding: 50px 33.33%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    
+}
+#copy{
+    position: relative;
+    left: 55%;
+    background-color: #ff002a;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#customize{
+    
+    font-weight: bold;
+    font-size: 32px;
+}
+#password{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+#tfield{
+    width: 75px;
+    height: 50px;
+}
+#checkboxes{
+    position: relative;
+    display: inline-block;
+    left: 40%;
+}
+#radios{
+    position: relative;
+    display: inline-block;
+    bottom: 10px;
+    padding: 10px 0;
+}
+.radio{
+    padding: 10px;
+    background-color: red;
+}
+#radios label{
+    display: inline-block;
+    margin: 18px 0;
+}
+#checkboxes label{
+    display: inline-block;
+    margin: 9px 0;
+}
+#checks{
+    margin-top: 10px;
+}
+#generate{
+    position: relative;
+    text-align: center;
+    background-color: #ff002a!important;
+    background-color: aqua;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 30px;
+    left: 27%;
+}
+form label{
+    background-color: green;
+}

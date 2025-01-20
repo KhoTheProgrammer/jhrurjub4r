@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!--Container div -->
+   <form action="" class=" p-8 m-8" style="padding: 2rem; margin: 2rem;" onsubmit="handleSubmit()"> 
+    <label for="">Password</label><br>
+    <input type="text"  minlength="6" id="password"><br>
+    <label for="">Password</label><br>
+    <input type="text"  minlength="6"><br>
+    <div>
+      <label for="">khotheprogrammer</label>
+    </div>
+    <button type="submit">submit</button>
+   </form>
+
+    <ol>
+      <li>Drive to the end of the road</li>
+      <li>Turn right</li>
+      <li>Go straight across the first two roundabouts</li>
+      <li>Turn left at the third roundabout</li>
+      <li>The school is on your right, 300 meters up the road</li>
+    </ol>
+    <div id="container">
+      <p id="copy">Copy</p>
+      <p id="customize">Customize your password</p>
+      <p id="password">Password Length</p>
+      <input
+        type="text"
+        name=""
+        id="tfield"
+        placeholder="&lt;...&gt;...&para;"
+      /><br />
+      <div id="checks">
+        <div id="radios">
+          <input type="radio" name="" class="radio" />
+          <label for="">Easy to say</label><br />
+          <input type="radio" name="" class="radio" />
+          <label for="">Easy to read</label><br />
+          <input type="radio" name="" class="radio" />
+          <label for="">All characters</label><br />
+        </div>
+
+        <div id="checkboxes">
+          <input type="checkbox" name="" id="" />
+          <label for="">Uppercase</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Lowercase</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Numbers</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">Symbols</label><br />
+        </div>
+      </div>
+
+      <p id="generate">Generate password</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

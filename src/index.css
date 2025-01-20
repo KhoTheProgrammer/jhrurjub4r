@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer utilities {
+  .bg-header {
+    background-image: url('/path-to-your-image.jpg');
+  }
+}
